@@ -1,0 +1,35 @@
+-- -- CREATE DATABASE MvcDynamicRBAC;
+-- USE MvcDynamicRBAC;
+-- GO
+-- -- ၁။ Role Table ဆောက်ခြင်း
+-- CREATE TABLE [dbo].[Tbl_Role] (
+--     [Id] INT IDENTITY(1,1) PRIMARY KEY,
+--     [RoleName] NVARCHAR(50) NOT NULL UNIQUE
+-- );
+
+-- -- ၂။ Permission Table ဆောက်ခြင်း
+-- CREATE TABLE [dbo].[Tbl_Permission] (
+--     [Id] INT IDENTITY(1,1) PRIMARY KEY,
+--     [PermissionName] NVARCHAR(100) NOT NULL UNIQUE
+-- );
+
+-- -- ၃။ AppUser Table ဆောက်ခြင်း
+-- -- (ဒီမှာ RoleId ကို Tbl_Role ထဲက Id နဲ့ Foreign Key လှမ်းချိတ်ထားပါတယ်)
+-- CREATE TABLE [dbo].[AppUser] (
+--     [Id] INT IDENTITY(1,1) PRIMARY KEY,
+--     [Username] NVARCHAR(50) NOT NULL UNIQUE,
+--     [Password] NVARCHAR(255) NOT NULL, -- Password Hash ဖိုင်တွေ ရှည်တတ်လို့ 255 ပေးထားပါတယ်
+--     [RoleId] INT NOT NULL,
+--     FOREIGN KEY ([RoleId]) REFERENCES [dbo].[Tbl_Role]([Id])
+-- );
+
+-- -- ၄။ RolePermission Table ဆောက်ခြင်း (ကြားခံတွဲပေးမည့် Table)
+-- -- (RoleId ကော PermissionId ပါ သက်ဆိုင်ရာ Tables တွေနဲ့ FK ချိတ်ထားပြီးသား ဖြစ်ပါတယ်)
+-- CREATE TABLE [dbo].[Tbl_RolePermission] (
+--     [Id] INT IDENTITY(1,1) PRIMARY KEY,
+--     [RoleId] INT NOT NULL,
+--     [PermissionId] INT NOT NULL,
+--     FOREIGN KEY ([RoleId]) REFERENCES [dbo].[Tbl_Role]([Id]) ON DELETE CASCADE,
+--     FOREIGN KEY ([PermissionId]) REFERENCES [dbo].[Tbl_Permission]([Id]) ON DELETE CASCADE
+-- );
+-- -- dotnet ef dbcontext scaffold "Server=localhost,1433;Database=SmartCampusDb;User Id=sa;Password=Linn@81220015228;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -o AppDbContext -d

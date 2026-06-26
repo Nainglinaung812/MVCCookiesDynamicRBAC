@@ -1,0 +1,14 @@
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/bin/Debug/net8.0/MVCDynamicRbacDatabase.deps.json
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/bin/Debug/net8.0/MVCDynamicRbacDatabase.runtimeconfig.json
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/bin/Debug/net8.0/MVCDynamicRbacDatabase.dll
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/bin/Debug/net8.0/MVCDynamicRbacDatabase.pdb
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.csproj.AssemblyReference.cache
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.AssemblyInfoInputs.cache
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.AssemblyInfo.cs
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.csproj.CoreCompileInputs.cache
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.dll
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/refint/MVCDynamicRbacDatabase.dll
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.pdb
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/MVCDynamicRbacDatabase.genruntimeconfig.cache
+/Users/nainglinnaung/Desktop/MVCDynamicRBAC/MVCDynamicRbacDatabase/obj/Debug/net8.0/ref/MVCDynamicRbacDatabase.dll
